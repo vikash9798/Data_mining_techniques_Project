@@ -1,1 +1,109 @@
 # Data_mining_techniques_Project
+1. K-Means Clustering – Customer Segmentation
+➡️ What it does:
+Groups customers into clusters based on similar characteristics (e.g., income and spending).
+
+🔧 How:
+
+Uses K-Means to segment customers.
+
+Finds the best number of clusters using the Elbow Method.
+
+Visualizes clusters in 2D.
+
+Why:
+Useful for identifying different customer types for personalized marketing.
+
+2. Apriori Algorithm – Association Rule Mining
+📌 What it does:
+Discovers frequently bought item combinations and generates “If this, then that” rules.
+
+🔧 How:
+
+Encodes the transactions into a matrix.
+
+Applies Apriori to find frequent itemsets.
+
+Generates rules based on lift, confidence, and support.
+
+🎯 Why:
+Used in market basket analysis for product bundling, promotions, etc.
+
+✅ 3. Decision Tree – Classification
+📌 What it does:
+Predicts categories (like flower species in Iris dataset) based on features.
+
+🔧 How:
+
+Splits data into training and test sets.
+
+Trains a Decision Tree.
+
+Evaluates accuracy and visualizes the tree structure.
+
+🎯 Why:
+Helps in making decisions based on conditions – useful in churn prediction, credit risk scoring, etc.
+
+✅ 4. RFM Analysis – Customer Value Segmentation
+📌 What it does:
+Scores customers based on how recently, how often, and how much they purchased.
+
+🔧 How:
+
+Groups by customer.
+
+Calculates Recency, Frequency, and Monetary value.
+
+Plots each metric for insight.
+
+🎯 Why:
+Helps find loyal customers, inactive ones, and those with high revenue potential.
+
+✅ 5. Linear Regression – Predictive Modeling
+📌 What it does:
+Predicts a continuous value (e.g., sales) based on another variable (e.g., ad spend).
+
+🔧 How:
+
+Simulates advertising vs sales data.
+
+Fits a linear regression model.
+
+Plots the prediction line against real data.
+
+🎯 Why:
+Useful in forecasting revenue, demand, or growth trends.
+
+✅ 6. Anomaly Detection – Outlier Identification
+📌 What it does:
+Detects unusual values in data, like fraud or errors.
+
+🔧 How:
+
+Calculates Z-scores.
+
+Flags values that are statistically far from the mean.
+
+Visualizes them using color-coded scatter plots.
+
+🎯 Why:
+Key for fraud detection, intrusion detection, and quality assurance.
+
+✅ 7. PCA – Dimensionality Reduction
+📌 What it does:
+Reduces large sets of features into 2 or 3 key dimensions while preserving data patterns.
+
+🔧 How:
+
+Loads the Iris dataset.
+
+Applies PCA to extract top components.
+
+Visualizes in 2D space.
+
+🎯 Why:
+Improves model performance and makes complex data easier to visualize.
+Tools: JyputerNotebook
+Model: ML MOdel 
+Author : Vikash Kumar
+Date : 19-04-2025
